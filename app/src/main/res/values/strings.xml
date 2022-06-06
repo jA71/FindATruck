@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FindATruck</string>
+    <string name="starup_msg">INGRESE SUS DATOS</string>
+    <string name="login">Ingresar</string>
+    <string name="register">Registrar</string>
+    <string name="password">Contraseña</string>
+    <string name="msg">BIENVENIDO A TRUCKFINDER</string>
+    <string name="user">Usuario</string>
+    <string name="phone_data">Teléfono</string>
+    <string name="email_data">Email</string>
+    <string name="logout">Salir</string>
+    <string name="accept">Aceptar</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="continue_btn">CONTINUAR</string>
+    <string name="presentation_msg">TruckFinder es una app que te ayudará a encontrar el camión que va contigo.</string>
+    <string name="truck_label">Marca</string>
+    <string name="truck_model">Modelo</string>
+    <string name="truck_capacity">Capacidad</string>
+    <string name="license_plate">Placas</string>
+    <string name="price">Precio</string>
+
+
+
+
+
+
+
+
+</resources>
