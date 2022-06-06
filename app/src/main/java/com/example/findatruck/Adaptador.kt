@@ -27,7 +27,7 @@ class Adaptador(val lista: List<Product>) : RecyclerView.Adapter<Adaptador.Produ
     }
 
     override fun onBindViewHolder(holder: ProductHolder, position: Int) {
-        holder.viewsFragmentHolder.nombre.text = lista[position].marca
+        holder.viewsFragmentHolder.marca.text = lista[position].marca
         holder.viewsFragmentHolder.descripcion.text = lista[position].modelo
         holder.viewsFragmentHolder.capacidad.text = lista[position].capacidad.toString()
         holder.viewsFragmentHolder.placas.text = lista[position].placas
