@@ -19,20 +19,10 @@ class LogIn : AppCompatActivity() {
 
     private fun initializacionListeners() {
         views.logInBtn.setOnClickListener {
-            val userText = views.user.text.toString()
-            val passwordText = views.password.text.toString()
-
-            userText?.let {
-                passwordText?.let { itp ->
-                    if (it.equals("jav_ayora") && itp.equals("123456")) {
-                        showData(userText)
-                    }
-                }
-            }
+            showData()
         }
     }
-
-    private fun showData(userText:String) {
+    private fun showData() {
         var intent: Intent = Intent( this, ListProduct::class.java)
         startActivity(intent)
     }
