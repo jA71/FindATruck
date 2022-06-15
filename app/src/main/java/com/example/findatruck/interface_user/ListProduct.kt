@@ -28,7 +28,7 @@ class ListProduct : AppCompatActivity() {
     }
 
     private fun addListProducts() {
-        WsClient.api()?.buscarListaProductos()?.enqueue(object : Callback<List<Product>> {
+        WsClient.apiLista()?.buscarListaProductos()?.enqueue(object : Callback<List<Product>> {
             override fun onResponse(call: Call<List<Product>>, response: Response<List<Product>>) {
                 if (response.isSuccessful){
                     val list = response.body()!!
