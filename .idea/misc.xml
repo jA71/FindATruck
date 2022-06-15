@@ -5,12 +5,15 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.11587621930709721" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/find.xml" value="0.1335" />
         <entry key="app/src/main/res/drawable/password.xml" value="0.192" />
         <entry key="app/src/main/res/drawable/user.xml" value="0.192" />
         <entry key="app/src/main/res/layout/activity_list_product.xml" value="0.31875" />
         <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_preferences.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/fragment_product.xml" value="0.31875" />
+        <entry key="app/src/main/res/menu/principal.xml" value="0.28125" />
       </map>
     </option>
   </component>

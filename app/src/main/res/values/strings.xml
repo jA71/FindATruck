@@ -19,12 +19,8 @@
     <string name="truck_capacity">Capacidad</string>
     <string name="license_plate">Placas</string>
     <string name="price">Precio</string>
-
-
-
-
-
-
+    <string name="found_list">Buscar</string>
+    <string name="share_list">Compartir</string>
 
 
 </resources>

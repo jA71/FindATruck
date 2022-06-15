@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/found_list"
+        android:title="@string/found_list"
+        android:icon="@drawable/find"
+        android:iconTint="@color/black"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/share_list"
+        android:title="@string/share_list"
+        android:icon="@drawable/share"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/example_list"
+        android:title="Example">
+
+    </item>
+    <item
+        android:id="@+id/settings_list"
+        android:title="Settings">
+
+    </item>
+
+
+</menu>
